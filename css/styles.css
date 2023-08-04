@@ -1,25 +1,61 @@
+<ul>
+  <li><a class="active"
+</ul>  
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1D2B3F;
+}
+
+li{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 20px; 
+  text-decoration: none
+}
+
+li a:hover {
+background-color: #1D2B3F;
+}
+
+body {
+  background-color: #EE7B18;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  font-family: DM Serif Text;
+  font-size: 20px;
+}
+
 p {
-    text-align: center;
-    color: red;
-    .nav {
-        background-color: yellow;
-        list-style-type: chenla;
-        text-align: center; 
-        padding: 0;
-        margin: 0;
-      }
-      
-      .nav li {
-        display: inline-block;
-        font-size: 20px;
-        padding: 20px;
-      } 
-      img.b {
-        vertical-align: text-top;
-      }
-      
-  }
-  p {
-    text-align: center;
-    color: red;
-  }
+  font-family: Chenla;
+  font-size: 20px;
+}
+</style>
+
+<div class="footer">
+  <p></p>
+</div>
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1D2B3F;
+  color: white;
+  text-align: left;
+}
+</style>
